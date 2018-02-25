@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Payment Form</title>
+<link href="normalize.css" rel="stylesheet" type="text/css">
+<link href="payment.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:500,700&amp;subset=cyrillic" rel="stylesheet">
+
+
+</head>
+
+<body>
+<form action="/pay" method="post" class="pay-form">
+  	<div class="pay-form__header" >
+		<h1 class="pay-form__name">Harold Finch</h1>
+		<p class="pay-form__title">Your Total</p>
+		<div class="pay-form__sum">88</div>
+	</div>
+	<div class="pay-form__main">
+	<label for="card-num" class="pay-form__card-num-label">Credit card number</label>
+	<input type="tel" placeholder="1234 5678 1234 5648" class="pay-form__card-num">
+		
+	<label for="card-month" class="pay-form__card-date-label">Expiration date</label>
+	<input type="month" placeholder="Month" class="pay-form__card-month">
+	<input type=  placeholder="Year" class="pay-form__card-year">
+	</div>
+</form>
+</body>
+</html>
